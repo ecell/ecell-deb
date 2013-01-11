@@ -4,28 +4,10 @@ I: creating local configuration
 I: copying local configuration
 I: mounting /proc filesystem
 I: mounting /dev/pts filesystem
-I: Mounting /home/naota/result/20121130/lucid
+I: Mounting /home/naota/result/20130111/lucid
 I: Mounting /var/cache/pbuilder/ccache
 I: policy-rc.d already exists
 I: Obtaining the cached apt archive contents
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Suggested packages:
-  cvs-buildpackage devscripts-el gnuplot libfile-desktopentry-perl
-  libnet-smtp-ssl-perl mutt svn-buildpackage w3m debian-keyring
-  debian-maintainers equivs ubuntu-dev-tools libcrypt-ssleay-perl
-  libsoap-lite-perl libyaml-syck-perl
-Recommended packages:
-  at curl wget dctrl-tools dput dupload libauthen-sasl-perl
-  libparse-debcontrol-perl libterm-size-perl liburi-perl libwww-perl lintian
-  lsb-release bsd-mailx mailx mailutils man-db patchutils ssh-client strace
-  unzip wdiff www-browser subversion cvs svk tla bzr git-core mercurial
-The following NEW packages will be installed:
-  devscripts
-0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
-Need to get 0B/592kB of archives.
-After this operation, 1765kB of additional disk space will be used.
 Selecting previously deselected package devscripts.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 13498 files and directories currently installed.)
 Unpacking devscripts (from .../devscripts_2.10.61ubuntu5_amd64.deb) ...
@@ -33,13 +15,13 @@ Setting up devscripts (2.10.61ubuntu5) ...
 
 Selecting previously deselected package ecell3.
 (Reading database ... 13694 files and directories currently installed.)
-Unpacking ecell3 (from ecell3_3.2.3p2-1ubuntu1~1.gbp6e2b33_amd64.deb) ...
+Unpacking ecell3 (from ecell3_3.2.3p2-1ubuntu1~2.gbpc8ca9e_amd64.deb) ...
 Selecting previously deselected package ecell3-session-monitor.
-Unpacking ecell3-session-monitor (from ecell3-session-monitor_3.2.3p2-1ubuntu1~1.gbp6e2b33_amd64.deb) ...
+Unpacking ecell3-session-monitor (from ecell3-session-monitor_3.2.3p2-1ubuntu1~2.gbpc8ca9e_amd64.deb) ...
 Selecting previously deselected package ecell3-model-editor.
-Unpacking ecell3-model-editor (from ecell3-model-editor_3.2.3p2-1ubuntu1~1.gbp6e2b33_amd64.deb) ...
+Unpacking ecell3-model-editor (from ecell3-model-editor_3.2.3p2-1ubuntu1~2.gbpc8ca9e_amd64.deb) ...
 Selecting previously deselected package ecell3-dev.
-Unpacking ecell3-dev (from ecell3-dev_3.2.3p2-1ubuntu1~1.gbp6e2b33_amd64.deb) ...
+Unpacking ecell3-dev (from ecell3-dev_3.2.3p2-1ubuntu1~2.gbpc8ca9e_amd64.deb) ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -59,8 +41,8 @@ The following extra packages will be installed:
   libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxft2 libxi6
   libxinerama1 libxml2 libxrandr2 libxrender1 mime-support python python-cairo
   python-central python-dev python-gnomecanvas python-gobject python-gtk2
-  python-numpy python-support python2.6 python2.6-dev shared-mime-info tsconf
-  ttf-dejavu-core ucf whiptail
+  python-numpy python-ply python-support python2.6 python2.6-dev
+  shared-mime-info tsconf ttf-dejavu-core ucf whiptail
 Suggested packages:
   defoma-doc psfontmgr x-ttcidfont-conf dfontmgr libfont-freetype-perl
   libboost1.40-doc libboost-date-time1.40-dev libboost-filesystem1.40-dev
@@ -74,8 +56,8 @@ Suggested packages:
   ttf-japanese-mincho ttf-thryomanes ttf-baekmuk ttf-arphic-gbsn00lp
   ttf-arphic-bsmi00lp ttf-arphic-gkai00mp ttf-arphic-bkai00mp python-doc
   python-tk python-profiler python-gobject-dbg python-gtk2-doc
-  python-numpy-doc python-numpy-dbg python-nose python2.6-doc
-  python2.6-profiler
+  python-numpy-doc python-numpy-dbg python-nose python-ply-doc
+  python-pkg-resources python2.6-doc python2.6-profiler
 Recommended packages:
   libatk1.0-data hicolor-icon-theme libgtk2.0-bin libfribidi0 xml-core
 The following NEW packages will be installed:
@@ -93,12 +75,12 @@ The following NEW packages will be installed:
   libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxft2 libxi6
   libxinerama1 libxml2 libxrandr2 libxrender1 mime-support python python-cairo
   python-central python-dev python-gnomecanvas python-gobject python-gtk2
-  python-numpy python-support python2.6 python2.6-dev shared-mime-info tsconf
-  ttf-dejavu-core ucf whiptail
-0 upgraded, 85 newly installed, 0 to remove and 0 not upgraded.
+  python-numpy python-ply python-support python2.6 python2.6-dev
+  shared-mime-info tsconf ttf-dejavu-core ucf whiptail
+0 upgraded, 86 newly installed, 0 to remove and 0 not upgraded.
 4 not fully installed or removed.
-Need to get 0B/50.5MB of archives.
-After this operation, 221MB of additional disk space will be used.
+Need to get 0B/50.6MB of archives.
+After this operation, 222MB of additional disk space will be used.
 Do you want to continue [Y/n]? Selecting previously deselected package libboost-python1.40.0.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 14711 files and directories currently installed.)
 Unpacking libboost-python1.40.0 (from .../libboost-python1.40.0_1.40.0-4ubuntu4_amd64.deb) ...
@@ -124,6 +106,10 @@ Selecting previously deselected package liblapack3gf.
 Unpacking liblapack3gf (from .../liblapack3gf_3.2.1-2_amd64.deb) ...
 Selecting previously deselected package python-numpy.
 Unpacking python-numpy (from .../python-numpy_1%3a1.3.0-3build1_amd64.deb) ...
+Selecting previously deselected package python-support.
+Unpacking python-support (from .../python-support_1.0.4ubuntu1_all.deb) ...
+Selecting previously deselected package python-ply.
+Unpacking python-ply (from .../python-ply_3.3-1_all.deb) ...
 Selecting previously deselected package libicu42.
 Unpacking libicu42 (from .../libicu42_4.2.1-3_amd64.deb) ...
 Selecting previously deselected package libboost1.40-dev.
@@ -134,8 +120,6 @@ Selecting previously deselected package python2.6-dev.
 Unpacking python2.6-dev (from .../python2.6-dev_2.6.5-1ubuntu6_amd64.deb) ...
 Selecting previously deselected package python-dev.
 Unpacking python-dev (from .../python-dev_2.6.5-0ubuntu1_all.deb) ...
-Selecting previously deselected package python-support.
-Unpacking python-support (from .../python-support_1.0.4ubuntu1_all.deb) ...
 Selecting previously deselected package gccxml.
 Unpacking gccxml (from .../gccxml_0.9.0+cvs20090916-1_amd64.deb) ...
 Selecting previously deselected package libboost-python1.40-dev.
@@ -296,14 +280,16 @@ Setting up liblapack3gf (3.2.1-2) ...
 
 Setting up python-numpy (1:1.3.0-3build1) ...
 
+Setting up python-support (1.0.4ubuntu1) ...
+
+Setting up python-ply (3.3-1) ...
+
 Setting up libicu42 (4.2.1-3) ...
 
 Setting up libboost1.40-dev (1.40.0-4ubuntu4) ...
 Setting up libboost-dev (1.40.0.1) ...
 Setting up python2.6-dev (2.6.5-1ubuntu6) ...
 Setting up python-dev (2.6.5-0ubuntu1) ...
-Setting up python-support (1.0.4ubuntu1) ...
-
 Setting up gccxml (0.9.0+cvs20090916-1) ...
 Setting up libboost-python1.40-dev (1.40.0-4ubuntu4) ...
 
@@ -442,22 +428,22 @@ Setting up libgnomecanvas2-0 (2.30.1-0ubuntu1) ...
 Setting up python-gnomecanvas (2.28.0-1ubuntu1) ...
 
 Processing triggers for python-central ...
-Setting up ecell3 (3.2.3p2-1ubuntu1~1.gbp6e2b33) ...
+Setting up ecell3 (3.2.3p2-1ubuntu1~2.gbpc8ca9e) ...
 
-Setting up ecell3-dev (3.2.3p2-1ubuntu1~1.gbp6e2b33) ...
-Setting up ecell3-session-monitor (3.2.3p2-1ubuntu1~1.gbp6e2b33) ...
-Setting up ecell3-model-editor (3.2.3p2-1ubuntu1~1.gbp6e2b33) ...
+Setting up ecell3-dev (3.2.3p2-1ubuntu1~2.gbpc8ca9e) ...
+Setting up ecell3-session-monitor (3.2.3p2-1ubuntu1~2.gbpc8ca9e) ...
+Setting up ecell3-model-editor (3.2.3p2-1ubuntu1~2.gbpc8ca9e) ...
 Processing triggers for libc-bin ...
 ldconfig deferred processing now taking place
 Processing triggers for python-support ...
-ii  ecell3                           3.2.3p2-1ubuntu1~1.gbp6e2b33 E-Cell System is an object-oriented software
-ii  ecell3-dev                       3.2.3p2-1ubuntu1~1.gbp6e2b33 E-Cell System is an object-oriented software
-ii  ecell3-model-editor              3.2.3p2-1ubuntu1~1.gbp6e2b33 E-Cell System is an object-oriented software
-ii  ecell3-session-monitor           3.2.3p2-1ubuntu1~1.gbp6e2b33 E-Cell System is an object-oriented software
+ii  ecell3                           3.2.3p2-1ubuntu1~2.gbpc8ca9e E-Cell System is an object-oriented software
+ii  ecell3-dev                       3.2.3p2-1ubuntu1~2.gbpc8ca9e E-Cell System is an object-oriented software
+ii  ecell3-model-editor              3.2.3p2-1ubuntu1~2.gbpc8ca9e E-Cell System is an object-oriented software
+ii  ecell3-session-monitor           3.2.3p2-1ubuntu1~2.gbpc8ca9e E-Cell System is an object-oriented software
 I: Copying back the cached apt archive contents
 I: unmounting /var/cache/pbuilder/ccache filesystem
-I: unmounting /home/naota/result/20121130/lucid filesystem
+I: unmounting /home/naota/result/20130111/lucid filesystem
 I: unmounting dev/pts filesystem
 I: unmounting proc filesystem
 I: cleaning the build env 
-I: removing directory /var/cache/pbuilder/build//17634 and its subdirectories
+I: removing directory /var/cache/pbuilder/build//30629 and its subdirectories

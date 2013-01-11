@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Fri, 11 Jan 2013 03:27:18 +0000
+Source: ecell
+Binary: ecell3 ecell3-session-monitor ecell3-model-editor ecell3-dev
+Architecture: source amd64
+Version: 3.2.3p2-1ubuntu1~2.gbpbedc84
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Moriyoshi Koizumi <mozo@sfc.keio.ac.jp>
+Changed-By: Naohiro Aota <naota@riken.jp>
+Description: 
+ ecell3     - E-Cell System is an object-oriented software suite for modeling,
+ ecell3-dev - E-Cell System is an object-oriented software suite for modeling,
+ ecell3-model-editor - E-Cell System is an object-oriented software suite for modeling,
+ ecell3-session-monitor - E-Cell System is an object-oriented software suite for modeling,
+Changes: 
+ ecell (3.2.3p2-1ubuntu1~2.gbpbedc84) UNRELEASED; urgency=low
+ .
+   ** SNAPSHOT build @bedc84f23f4952d1b1159f5ae11e6af78a8b6ed1 **
+ .
+   * UNRELEASED
+   * UNRELEASED
+Checksums-Sha1: 
+ 46fed5873f66c56d56cbeac655888c401cbf3401 1129 ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.dsc
+ 7c845ae7847ee954cd75f52b9cee37be9a539c4b 5016 ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.debian.tar.gz
+ 6573dabe10173a03e2b2bfbd40260ac7d0c7a73a 1801998 ecell3_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 3587234f2f4fef47a82a88f6c0821cfce2d757ec 199866 ecell3-session-monitor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ ba72ff6782e6f8054e2081921838addef681308d 985040 ecell3-model-editor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 6195287ad435705aa089c9a43ddaca5730f62ddb 546564 ecell3-dev_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+Checksums-Sha256: 
+ d33dc6f349994e0a08a074f88767bffd9b5711f1fe317eb33a4cb932fcdff795 1129 ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.dsc
+ 6f6f2d92c83ac705a34bffd4fd53ab05b40db334e9d10ade1a965b1754a92abb 5016 ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.debian.tar.gz
+ d690c383737c2adc3ae5416212bf88c84a51963bf0d4391e96e1199e0db109ef 1801998 ecell3_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 1f5db1204f7bbf6e3fd2d586bac18c981b3867f40c386aec270af01e33af7fdf 199866 ecell3-session-monitor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 3abce80f811086338d87fd2f3ffd87128e6ecde29517b3b759949972e4cad121 985040 ecell3-model-editor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ c531387ab89d1edb02f076084a23e349a781362f8a04b151be78b46590b96058 546564 ecell3-dev_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+Files: 
+ 61a29efdd352aef67d7b150e990a2662 1129 contrib/science extra ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.dsc
+ f3aa0bbc56e58ae20be17af4401906c9 5016 contrib/science extra ecell_3.2.3p2-1ubuntu1~2.gbpbedc84.debian.tar.gz
+ 63d059c3345afea92c379c4b5018bf20 1801998 contrib/science extra ecell3_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 25f00c1b4cbf9b3a5323da94d5bf019d 199866 contrib/science extra ecell3-session-monitor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ 75d1e5a3e809f54fc8d037c4d39a84c9 985040 contrib/science extra ecell3-model-editor_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
+ b4c668a37fdc85f7a58f1c78a0c80b62 546564 contrib/devel extra ecell3-dev_3.2.3p2-1ubuntu1~2.gbpbedc84_amd64.deb
